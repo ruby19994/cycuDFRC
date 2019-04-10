@@ -1,0 +1,58 @@
+body {
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+		}
+		.header
+		{
+			text-align: center;
+			padding-top: 30px;
+			font-size: 100px;
+			font-stretch: ultra-condensed;
+			font-family: Dokdo;
+		}
+
+		.background{
+			height:1500px;
+			background:#EEE8AA repeat;
+  			position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -2;
+		}
+		i{
+			color:black;
+		}
+		a{
+			color: black;
+			font-family: Dokdo;
+		}
+		.p-2 {
+			font-size:40px;
+		}
+		
+
+      	.gohome{
+			position:fixed;        
+			right:50px;
+			bottom: 50px;
+			z-index: -1;
+		}
+		legend{
+			text-align: center;
+			font-family: Pacifico;
+		}
+		li{
+			font-weight:bold;
+		}
+		img{
+transition: all 1.5s ease;
+}
+img:hover{
+transform:scale(1.2);
+}
+
+	

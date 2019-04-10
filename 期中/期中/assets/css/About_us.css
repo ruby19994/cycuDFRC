@@ -1,0 +1,105 @@
+body {
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+		}
+		.header
+		{
+			text-align: center;
+			padding-top: 30px;
+			font-size: 100px;
+			font-stretch: ultra-condensed;
+			font-family: Dokdo;
+		}
+
+		.background{
+			height:1400px;
+			background:#EEE8AA repeat;
+  			position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -2;
+		}
+		i{
+			color:black;
+		}
+		a{
+			color: black;
+			font-family: Dokdo;
+		}
+		.p-2 {
+			font-size:40px;
+		}
+		.cardOutside{
+			height:450px; 
+			width:1000px;
+			 padding: 50px;
+
+		}
+		h5{
+			font-family:"微軟正黑體";
+			font-width:bolder;
+		}
+		.cardContext{
+			font-family:"微軟正黑體";
+		}
+
+		.inner{
+			overflow: hidden;
+		}
+		.inner img{
+			transition: all 1.5s ease;
+		}
+
+		.inner:hover img{
+			transform:scale(1.2);
+
+		}
+		.card{
+		transition: all 1.5s ease;
+		}
+		.card:hover {
+		transform:scale(1.1);
+		}
+		.foodCard{
+  position: relative;
+  width: 350px;
+  height: 225px;
+}
+		}
+		.foodImg{
+			opacity: 1;
+ 		 display: block;
+ 			 width: 350px;
+  			height: 350px;
+  		transition: .5s ease;
+  			backface-visibility: hidden;
+		}
+		.middle{
+			 transition: .5s ease;
+  opacity: 0;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  text-align: center;
+		}
+.foodCard:hover .foodImg {
+  opacity: 0.3;
+}
+.foodCard:hover .middle {
+  opacity: 1;
+}
+
+	.text {
+
+  color: white;
+  font-size: 16px;
+ 
+}
+
+

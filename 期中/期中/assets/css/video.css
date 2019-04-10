@@ -1,0 +1,60 @@
+body {
+			margin-top: 0px;
+			margin-right: 0px;
+			margin-bottom: 0px;
+			margin-left: 0px;
+		}
+		.header
+		{
+			text-align: center;
+			padding-top: 30px;
+			font-size: 100px;
+			font-stretch: ultra-condensed;
+			font-family: Dokdo;
+		}
+
+		.background{
+			height:1200px;
+			background:#EEE8AA repeat;
+  			position: absolute;
+            top: 0;
+            left: 0;
+            bottom: 0;
+            right: 0;
+            z-index: -2;
+		}
+		
+		i{
+			color:black;
+		}
+		a{
+			color: black;
+			font-family: Dokdo;
+		}
+		.p-2 {
+			font-size:40px;
+		}
+}
+		iframe{
+			border: 10px black;
+			border-style: double;
+			border-radius: 10px;
+			padding:50px;
+		}
+		.videoText{
+			font-weight:bolder; 
+			line-height:40px;
+			font-size:20px;
+			padding:30px;
+		}
+		.gohome{
+			position:fixed;
+			right:50px;
+			bottom: 50px;
+			z-index: -1;
+		}
+		.inner{
+			width: 270px;
+			height:200px;
+			padding:10px;
+		}

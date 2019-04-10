@@ -1,0 +1,64 @@
+body {
+margin-top: 0px;
+margin-right: 0px;
+margin-bottom: 0px;
+margin-left: 0px;
+}
+.header
+{
+text-align: center;
+padding-top: 30px;
+font-size: 100px;
+font-stretch: ultra-condensed;
+font-family: Dokdo;
+}
+.background{
+height:1400px;
+background:#EEE8AA repeat;
+position: absolute;
+top: 0;
+left: 0;
+bottom: 0;
+right: 0;
+z-index: -2;
+}
+i{
+color:black;
+}
+a{
+color: black;
+font-family: Dokdo;
+}
+.p-2 {
+font-size:40px;
+}
+.card1{
+font-family:Love Ya Like A Sister;
+font-weight: bolder;
+font-size:28px;
+}
+.card8{
+font-family:Love Ya Like A Sister;
+font-size:28px;
+font-weight: bolder;
+background-color: #D88D77;
+}
+.inner{
+overflow: hidden;
+}
+.inner img{
+transition: all 1.5s ease;
+}
+.inner:hover img{
+transform:scale(1.2);
+}
+.card{
+	transition: all 1.5s ease;
+}
+.card:hover {
+transform:scale(1.1);
+}
+		.card-img{
+			width:300px;
+			height:300px;
+		}

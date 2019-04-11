@@ -45,7 +45,11 @@ body {
 			height: 480px;
 			position: absolute;
 			top: 30%;
+<<<<<<< HEAD
 			left: 30%;
+=======
+			left: 50%;
+>>>>>>> 147695029a843d93502542db1fe177162992cc28
 			border: 15px solid; 
 			border-radius: 8px;   
 			border-bottom-width: 15px;
